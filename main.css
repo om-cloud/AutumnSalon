@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Montserrat&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:#f3f1f0;
+  }
+  
+  p {
+    position: relative;
+    color:#776c8c;
+    font-family: 'Heebo', sans-serif;
+    text-transform: uppercase;
+    font-size: 8em;
+    letter-spacing: 4px;
+    overflow: hidden;
+    background: linear-gradient(90deg,#776c8c,#aca9b1,#776c8c);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 3s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  }
+  a, img, span{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-container{
+    display: flex;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+  span{
+      color: rgb(87, 87, 87);
+      font-size: 4em;
+      text-align: center;
+      font-family: 'Montserrat', sans-serif;
+  }
+
+  a{
+    text-decoration: none;
+    color: rgb(102, 102, 102);
+    font-family: 'Heebo', sans-serif;
+    font-size: 1.3em;
+  }
+  img.schedule{
+      margin-right: 6px;
+      height: 1.3em;
+  }
+  img.logo{
+    height:5em ;
+
+  }
+  
+  @keyframes animate {
+    0% {
+      background-position: 400%;
+    }
+    100% {
+      background-position: -400%;
+    }
+  }
